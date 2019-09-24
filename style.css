@@ -296,14 +296,6 @@ div#slider figure {
   font-size: 300%;
   color: white;
 }
-.wrapper{
-  margin-top: 50px;
-  display:grid;
-  grid-gap:20px;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 250px 250px 250px;
-  justify-content:center;
-}
 
 .grid {
   display: flex;
