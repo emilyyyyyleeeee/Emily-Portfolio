@@ -1,3 +1,4 @@
+/* Index Html */
 .index {
   background-color:#E0FFFF;
 }
@@ -41,6 +42,7 @@
   width: 1440px;
   height: 700px;
 }
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -108,12 +110,15 @@
       }
     }
 
+/* Home Page */
 .home {
     list-style: none;
     font-family:'Fira Code', monospace;
     text-decoration: underline overline;
     color:#338AFF;
 }
+
+/* About Html */
 .about{
   background-image: url("photos/NY.jpg");
 }
@@ -148,6 +153,7 @@
   margin: 0 1.5%;
   width: 35%;
 }
+
 .me li {
   border: 20px;
   list-style: none;
@@ -204,7 +210,7 @@
   margin: 5px 2px;
 }
 
-
+/* Food Html */
 .food {
   background-color: #faf3b1;
 }
@@ -224,10 +230,13 @@
     color: #e8645f;
     padding-right: 50px;
 }
+
 .eat {
   width: 1380px;
   height: 650px;
 }
+
+/* Slideshow */
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -283,6 +292,8 @@ div#slider figure {
   height: 400px;
   padding-right: 50px;
 }
+
+/* Spotify Html */
 .spotify {
   background-color: black;
 }
@@ -301,6 +312,7 @@ div#slider figure {
   display: flex;
   flex-direction: row;
 }
+
 .ya {
   width: 400px;
   height: 420px;
@@ -324,6 +336,7 @@ div#slider figure {
   padding-left: 50px;
   padding-top: 50px;
 }
+
 .noir {
   display: flex;
   clear: left;
@@ -494,6 +507,7 @@ div#slider figure {
   padding-right: 60px;
 }
 
+/* New York Html */
 .NY {
   background-color: #ffe1de;
 }
@@ -506,6 +520,8 @@ div#slider figure {
   padding-right: 15px;
   background-color: #ffdb63;
 }
+
+/* Snowflake */
 .snowflake {
   color: #fff;
   font-size: 4em;
@@ -513,6 +529,7 @@ div#slider figure {
   text-shadow: 0 0 1px #000;
 }
 
+/* Snowflake animation */
 @-webkit-keyframes snowflakes-fall {
   0%
   {top:-10%}
@@ -625,8 +642,7 @@ div#slider figure {
   -webkit-animation-delay:3s,1.5s;
   animation-delay:3s,1.5s
 }
-
-
+/* End of Snowflake animation */
 
 .trophical {
   width: 1427px;
